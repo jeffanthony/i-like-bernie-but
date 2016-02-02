@@ -20,6 +20,14 @@
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/faq.js"></script>
 	<script src="js/scripts.js"></script>
+	<div id="fb-root"></div>
+ 	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=179460946990";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 <body>
 	<div class="header shadow">
@@ -39,6 +47,7 @@
 	<div class="footer">
 		<div class="created-by">CREATED BY VOLUNTEERS</div>
 		<div class="not-the-billionaires"></div>
+		<div class="fb-share-button" data-href="http://ilikeberniebut.com" data-layout="button_count"></div>
 	</div>
 
 	<script>
